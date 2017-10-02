@@ -1,0 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapandel <mapandel@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/02 21:09:01 by mapandel          #+#    #+#             */
+/*   Updated: 2017/10/02 21:12:24 by mapandel         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body {background-image: url("http://bit.ly/2xSjlLJ");}
+table {border-collapse: collapse; text-align: center;}
+td {width: 5.6%; height: 5.6%;}
+strong {vertical-align: middle; font-size: 1.2vw;}
+.numéro {vertical-align: top; text-align: left; font-size: 0.9vw;}
+.poids {vertical-align: bottom; text-align: right; font-size: 0.9vw;}
+.non-métaux {border: 1px solid black; background-color: #FBC976;}
+.gaz-rares {border: 1px solid black; background-color: #F8C4B1;}
+.métaux-alcalins {border: 1px solid black; background-color: #FFFFFF;}
+.alcalino-terreux {border: 1px solid black; background-color: #F4AF97;}
+.métalloïdes {border: 1px solid black; background-color: #A2CC90;}
+.non-métaux {border: 1px solid black; background-color: #C3C683;}
+.halogènes {border: 1px solid black; background-color: #97AECF;}
+.métaux-pauvres {border: 1px solid black; background-color: #CBCACA;}
+.métaux-transition {border: 1px solid black; background-color: #FBC976;}
+.lanthanides {border: 1px solid black; background-color: #FEE3BC;}
+.actinides {border: 1px solid black; background-color: #FDD79A;}
