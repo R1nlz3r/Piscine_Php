@@ -1,0 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mapandel <mapandel@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/10/02 15:30:56 by mapandel          #+#    #+#             */
+/*   Updated: 2017/10/02 17:12:32 by mapandel         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body {background-color: rgb(80, 80, 80);}
+.blocpage {margin-left: 10%; margin-right: 10%;}
+.header {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 6px 6px 6px black;}
+.header_border {display: flex; flex-direction: column;}
