@@ -6,11 +6,30 @@
 /*   By: mapandel <mapandel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/02 15:30:56 by mapandel          #+#    #+#             */
-/*   Updated: 2017/10/02 17:23:45 by mapandel         ###   ########.fr       */
+/*   Updated: 2017/10/03 18:27:11 by mapandel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 body {background-color: rgb(80, 80, 80);}
 .blocpage {margin-left: 10%; margin-right: 10%;}
-.header {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 6px 6px 6px black;}
-.header_border {display: flex; flex-direction: column;}
+.header {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black;}
+
+ul {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black; list-style-type: none; position: fixed;}
+ul .gauche {margin-top: 100px;}
+ul .droite {margin-top: 100px;}
+
+.title {border-radius: 10px; width: 40%;}
+.loupe {border-radius: 10px; padding-left: 45%; position: relative; top: 25px;}
+.reload {width: 25px; height: 25px; position: absolute; top: 30px; right: 275px;}
+.close {width: 25px; height: 25px; position: absolute; top: 200px; right: 275px;}
+
+.arrow {width: 120px; height: 120px; margin-top: 30px; margin-left: 70px;}
+.main {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
+.oeil {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;
+	border: 7px solid red; border-width: 7px; border-radius: 10px;}
+.outil {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
+.chat-icon {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px; margin-bottom: 30px;}
+
+.book {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
+.towel {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
+.brick {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
