@@ -5,8 +5,8 @@
 		if (!$str)
 			return (NULL);
 		$array = explode(" ", $str);
-		sort($array, SORT_STRING);
 		$array = array_filter($array);
+		sort($array, SORT_STRING);
 		return ($array);
 	}
 ?>
