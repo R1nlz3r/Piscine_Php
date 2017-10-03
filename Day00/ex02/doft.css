@@ -6,30 +6,43 @@
 /*   By: mapandel <mapandel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/02 15:30:56 by mapandel          #+#    #+#             */
-/*   Updated: 2017/10/03 18:27:11 by mapandel         ###   ########.fr       */
+/*   Updated: 2017/10/03 21:28:50 by mapandel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-body {background-color: rgb(80, 80, 80);}
-.blocpage {margin-left: 10%; margin-right: 10%;}
-.header {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black;}
+body {background-color: rgb(80, 80, 80); margin-left: 10%; margin-right: 10%;}
+.header {border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black;}
 
-ul {border: 2px solid black; border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black; list-style-type: none; position: fixed;}
-ul .gauche {margin-top: 100px;}
-ul .droite {margin-top: 100px;}
+div {border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black;}
+.gauche {position: fixed; width: 220px; height: 600px; left: 11.5%; text-align: center; padding-top: 20px}
+.droite {position: fixed; width: 220px; height: 600px; right: 11.5%; text-align: center; padding-top: 25px}
+
+.centre {border-radius: 10px; background-color: #909090; box-shadow: 10px 10px 10px black;
+	position: fixed; left: 21.65%; width: 1450px; text-align: center; margin-top: 0px;}
+
+.interface {border-radius: 10px; background-color: #8DFE8F; box-shadow: 10px 10px 10px black;
+	position: absolute; left: 8%; margin-top: 735px; width:775px; height: 250px; padding-left: 15px; padding-top: 10px;}
 
 .title {border-radius: 10px; width: 40%;}
-.loupe {border-radius: 10px; padding-left: 45%; position: relative; top: 25px;}
+.loupe {padding-left: 45%; width: 390px; position: absolute; top: 33px; right: 300px;}
 .reload {width: 25px; height: 25px; position: absolute; top: 30px; right: 275px;}
 .close {width: 25px; height: 25px; position: absolute; top: 200px; right: 275px;}
 
-.arrow {width: 120px; height: 120px; margin-top: 30px; margin-left: 70px;}
-.main {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
-.oeil {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;
-	border: 7px solid red; border-width: 7px; border-radius: 10px;}
-.outil {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
-.chat-icon {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px; margin-bottom: 30px;}
+.arrow {width: 110px; height: 110px;}
+.main {width: 110px; height: 110px;}
+.oeil {width: 110px; height: 110px; border: 7px solid red; border-width: 7px; border-radius: 10px;}
+.outil {width: 110px; height: 110px;}
+.chat-icon {width: 110px; height: 110px;}
 
-.book {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
-.towel {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
-.brick {width: 120px; height: 120px; margin-top: 10px; margin-left: 70px;}
+.book {width: 110px; height: 110px;}
+.towel {width: 110px; height: 110px;}
+.brick {width: 110px; height: 110px;}
+
+.cluster {width: 1425px; padding-top: 15px; padding-bottom: 10px;}
+
+.texte {font-size: 25px;}
+strong {font-size: 40px;}
+.ombre {text-shadow: 5px 5px 5px red;}
+
+form {position: fixed; left: 8.75%; top: 1120px;}
+.text-input {width: 600px;}
