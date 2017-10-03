@@ -7,6 +7,7 @@
 	$str = array_shift($array);
 	foreach ($array as $tmp)
 		echo $tmp . " ";
+	$str = trim($str);
 	if ($str)
 		echo $str . "\n";
 ?>
