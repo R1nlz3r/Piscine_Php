@@ -9,9 +9,9 @@
 		if (!$nb)
 			break ;
 		$nb = str_replace("\n", "", "$nb");
-		if (is_numeric($nb) && strlen($nb) <= 10 && !(strpos($nb, ".")))
+		if (is_numeric($nb) && !(strpos($nb, ".")))
 		{
-			if ($nb % 2)
+			if ($nb[strlen($nb) - 1] % 2)
 				echo "Le chiffre " . $nb . " est Impair\n";
 			else
 				echo "Le chiffre " . $nb . " est Pair\n";
