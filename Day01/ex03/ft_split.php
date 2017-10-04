@@ -2,10 +2,8 @@
 <?php
 	function ft_split($str)
 	{
-		if (!$str)
-			return (NULL);
 		$array = explode(" ", $str);
-		$array = array_filter($array);
+		$array = array_filter($array, 'strlen');
 		sort($array, SORT_STRING);
 		return ($array);
 	}
