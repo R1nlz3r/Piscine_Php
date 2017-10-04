@@ -8,8 +8,7 @@
 	$i = 1;
 	while ($i < 3)
 	{
-		$argv[$i] = ltrim($argv[$i]);
-		$argv[$i] = rtrim($argv[$i]);
+		$argv[$i] = trim($argv[$i]);
 		++$i;
 	}
 	if ($argv[2] == "+")
@@ -18,8 +17,8 @@
 		echo $argv[1] - $argv[3] . "\n";
 	else if ($argv[2] == "*")
 		echo $argv[1] * $argv[3] . "\n";
-	else if ($argv[2] == "/")
+	else if ($argv[2] == "/" && ((int)$argv[3]))
 		echo $argv[1] / $argv[3] . "\n";
-	else if ($argv[2] == "%")
+	else if ($argv[2] == "%" && ((int)$argv[3]))
 		echo $argv[1] % $argv[3] . "\n";
 ?>
