@@ -2,11 +2,9 @@
 <?php
 	function ft_split($str)
 	{
-		if (!$str)
-			return (NULL);
 		$array = explode(" ", $str);
+		$array = array_filter($array, 'strlen');
 		sort($array, SORT_STRING);
-		$array = array_filter($array);
 		return ($array);
 	}
 
@@ -19,10 +17,10 @@
 			$array = ft_split($argv[$i]);
 		++$i;
 	}
-	if (!$array)
+	if (empty($array))
 		return (NULL);
 	sort($array, SORT_STRING);
-	$array = array_filter($array);
+	$array = array_filter($array, 'strlen');
 	foreach ($array as $tmp)
 		echo $tmp . "\n";
 ?>
