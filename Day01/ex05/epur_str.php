@@ -4,6 +4,6 @@
 		return (NULL);
 	$str = preg_replace('/\s\s+/', ' ', $argv[1]);
 	$str = trim($str);
-	if ($str)
+	if (!($str === ""))
 		echo  $str . "\n";
 ?>
