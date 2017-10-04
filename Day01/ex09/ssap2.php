@@ -17,6 +17,8 @@
 			$array = ft_split($argv[$i]);
 		++$i;
 	}
+	if (empty($array))
+		return (NULL);
 	foreach ($array as $tmp)
 	{
 		if (ctype_alpha($tmp))
