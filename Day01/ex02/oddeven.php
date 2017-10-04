@@ -9,7 +9,7 @@
 		if (!$nb)
 			break ;
 		$nb = str_replace("\n", "", "$nb");
-		if (is_numeric($nb) && strlen($nb) <= 10)
+		if (is_numeric($nb) && strlen($nb) <= 10 && !(strpos($nb, ".")))
 		{
 			if ($nb % 2)
 				echo "Le chiffre " . $nb . " est Impair\n";
