@@ -1,13 +1,13 @@
 #!/usr/bin/php
 <?php
-	if (!($argc > 1) || !$argv[1])
+	if (!($argc > 1) || $argv[1] === "")
 		return (NULL);
 	$array = explode(" ", $argv[1]);
-	$array = array_filter($array);
+	$array = array_filter($array, 'strlen');
 	$str = array_shift($array);
 	foreach ($array as $tmp)
 		echo $tmp . " ";
 	$str = trim($str);
-	if ($str)
+	if (!($str === ""))
 		echo $str . "\n";
 ?>
