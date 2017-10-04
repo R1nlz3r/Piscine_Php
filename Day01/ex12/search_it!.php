@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-	if ($argc <= 2 || (!($argv[1]) && $argv[1] != "0"))
+	if ($argc <= 2 || $argv[1] === "")
 		return (NULL);
 	$tmp = false;
 	$i = 2;
