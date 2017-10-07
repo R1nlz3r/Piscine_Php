@@ -1,7 +1,21 @@
-body {height: 100%; min-height: 100%;}
-nav {background-color: #009688;
+body	{margin: 0;}
+
+nav		{background-color: #009688;
 	position: fixed; left: 0; top: 0;
-	width: 150px; min-width: 150px; max-width: 250px;  height: 100%;
-	text-align: center; padding-top: 20px;}
-.icon {width: 100px; height: 100px;
-	border-radius: 10px; border: 5px solid #004D40;}
+	width: 200px; min-width: 200px; max-width: 200px;  height: 100%;
+	text-align: center;
+	border-right: 4px solid #004D40;}
+
+header	{background-color: #00BFA5;
+	position: fixed; left: 204px; top: 0;
+	height: 148px; width: 100%;
+	border-bottom: 4px solid #004D40;}
+
+a		{text-decoration: none; color: #004D40;
+	font-family: "Arial", sans-serif; font-size: 20px}
+
+.icon 	{width: 100px; height: 100px;
+	border-radius: 10px; border: 4px solid #004D40; margin-top: 20px; margin-bottom: 20px;}
+.links	{padding-top: 15px; padding-bottom: 15px;
+	background-color: #26A69A; border-bottom: 2px solid #004D40;}
+.links:hover	{background-color: #4DB6AC;}
