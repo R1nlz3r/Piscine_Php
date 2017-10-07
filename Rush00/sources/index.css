@@ -1,7 +1,7 @@
 body	{margin: 0;}
 
 nav		{background-color: #009688;
-	position: fixed; left: 0; top: 0;
+	position: fixed; left: 0; top: 0; z-index: 1000;
 	width: 200px; min-width: 200px; max-width: 200px;  height: 100%;
 	text-align: center;
 	border-right: 4px solid #004D40;}
@@ -14,7 +14,7 @@ a		{text-decoration: none; color: #004D40;
 .links:hover	{background-color: #4DB6AC;}
 
 header	{background-color: #00BFA5;
-	position: fixed; left: 204px; top: 0;
+	position: fixed; left: 204px; top: 0; z-index: 1000;
 	height: 148px; width: 100%;
 	border-bottom: 4px solid #004D40; overflow: hidden;}
 .titre1	{font-family: "Arial", sans-serif; color: #004D40; font-size: 70px;
@@ -23,4 +23,14 @@ header	{background-color: #00BFA5;
 .titre2	{font-family: "Arial", sans-serif; color: #004D40; font-size: 23px;
 	margin-left: 30px; overflow: hidden; white-space: nowrap;}
 
-.body	{position: absolute; left:204px ; top: 152px; overflow: hidden; white-space: nowrap;}
+.body	{position: absolute; left:204px ; top: 152px; width: 100%; height: 100%;
+	background-color: #F5F5F5;}
+
+form	{margin-top: 25px; margin-left: 25px; margin-bottom: 25px;
+	font-family: "Arial", sans-serif; color: #004D40; font-size: 18px;}
+input[type=text]	{margin-top: 6px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
+	border: 2px solid #004D40; background-color: #A7FFEB; color: black;
+	font-size: 15px;}
+input[type=submit]	{margin-top: 32px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
+	border: 2px solid #004D40; background-color: #00897B; color: #004D40;
+	font-family: "Arial", sans-serif; font-size: 18px;}
