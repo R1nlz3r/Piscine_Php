@@ -18,20 +18,10 @@
 			<div class="titre1">110° Chaises pliantes</div>
 			<div class="titre2">La chaise qui se pliera à toutes vos envies</div>
 		</header>
-		<?php
-			if (les bons identifiants)
-			{
-			echo "<form method="post" action="create.php" name="index.php">
-				<fieldset>
-					<legend>Connectez-vous :</legend>
-					Identifiant: <input type="text" name="login">
-					Mot de passe: <input type="text" name="passwd">
-					<input type="submit" name="submit" value="OK">
-				</fieldset>
-			form>"
-			}
-			else
-				echo "t'es connecté";
-		?>
+		<div class="body">
+			<?php
+				echo "lol";
+			?>
+		</div>
 	</body>
 </html>
