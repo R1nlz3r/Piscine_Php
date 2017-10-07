@@ -23,4 +23,4 @@ header	{background-color: #00BFA5;
 .titre2	{font-family: "Arial", sans-serif; color: #004D40; font-size: 23px;
 	margin-left: 30px; overflow: hidden; white-space: nowrap;}
 
-form	{position: absolute; left:204px ; top: 152px; overflow: hidden; white-space: nowrap;}
+.body	{position: absolute; left:204px ; top: 152px; overflow: hidden; white-space: nowrap;}
