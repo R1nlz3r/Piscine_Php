@@ -16,11 +16,11 @@
 		</nav>
 		<header>
 			<div class="titre1">110° Chaises pliantes</div>
-			<div class="titre2">La chaise qui se pliera à toutes vos envies</div>
+			<div class="titre2">Les chaises qui se plieront à toutes vos envies</div>
 		</header>
 		<div class="body">
 			<?php
-				echo "lol";
+				echo file_get_contents("connexion.html");
 			?>
 		</div>
 	</body>
