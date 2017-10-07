@@ -7,7 +7,15 @@
 	</head>
 	<body>
 		<nav>
-			<img class="icon" src="resources/icon.ico" alt=""/>
+			<a href="index.php"><img class="icon" src="resources/icon.ico" alt=""/></a>
+			<div class="links" style="border-top: 4px solid #004D40;"><a href="#">Cuisine</a></div>
+			<div class="links"><a href="#">Terrasse - Jardin</a></div>
+			<div class="links"><a href="#">Salle à manger</a></div>
+			<div class="links"><a href="#">Bureau</a></div>
+			<div class="links"><a href="#">Bar - Restaurant</a></div>
 		</nav>
+		<header>
+
+		</header>
 	</body>
 </html>
