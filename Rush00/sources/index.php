@@ -12,11 +12,15 @@
 		<nav>
 			<a href="index.php"><img class="icon" src="../resources/icon.ico" alt=""/></a>
 			<form method="get">
-				<div class="links" style="border-top: 4px solid #004D40;"><input type="submit" name="Cuisine" value="Cuisine" /></div>
-				<div class="links"><input type="submit" name="Terrasse - Jardin" value="Terrasse - Jardin" /></div>
-				<div class="links"><input type="submit" name="Salle à manger" value="Salle à manger" /></div>
-				<div class="links"><input type="submit" name="Bureau" value="Bureau" /></div>
-				<div class="links"><input type="submit" name="Bar - Restaurant" value="Bar - Restaurant" /></div>
+				<div class="links" style="border-top: 4px solid #004D40;"><input class="onglets" type="submit" name="Cuisine" value="Cuisine" /></div>
+				<div class="links"><input class="onglets" type="submit" name="Terrasse - Jardin" value="Terrasse - Jardin" /></div>
+				<div class="links"><input class="onglets" type="submit" name="Salle à manger" value="Salle à manger" /></div>
+				<div class="links"><input class="onglets" type="submit" name="Bureau" value="Bureau" /></div>
+				<div class="links"><input class="onglets" type="submit" name="Bar - Restaurant" value="Bar - Restaurant" /></div>
+				<div class="connexion">
+					<div class="linksimp" style="border-top: 3px solid #004D40;"><input class="onglets" type="submit" name="Connexion" value="Connexion" /></div>
+					<div class="linksimp"><input class="onglets" type="submit" name="Inscription" value="Inscription" /></div>
+				</div>
 			</form>
 		</nav>
 		<header>
