@@ -6,6 +6,9 @@
 		<link href="../resources/icon.ico" rel="icon" />
 	</head>
 	<body>
+		<?php
+			$fd = fopen("../data/products.csv", "r");
+		?>
 		<nav>
 			<a href="index.php"><img class="icon" src="../resources/icon.ico" alt=""/></a>
 			<div class="links" style="border-top: 4px solid #004D40;"><a href="index.php">Cuisine</a></div>
@@ -20,10 +23,21 @@
 		</header>
 		<div class="body">
 			<div class="catégorie">Accueil</div>
-			<div class="article">
-				<img class="articleimg" src="../resources/rond_gris.jpg" alt="" />
+			<?php
+					$count = 0;
+					while (($data = fgetcsv($fd, 0, ";")) !== FALSE) {
+				?>
+				<?php if ($count !== 0) { ?>
+				<div class="article">
+				<img class="articleimg" src="<?php echo $data[4];?>" alt="" />
 				<div class="add_cart_button"><div class="add_cart_text">Ajouter au panier</div></div>
-			</div>
+				</div>
+			<?php
+				}
+				$count++;
+				}
+				fclose($fd);
+			?><!--
 			<div class="article">
 				<img class="articleimg" src="../resources/bois_rembouré.jpg" alt="" />
 				<div class="add_cart_button"><div class="add_cart_text">Ajouter au panier</div></div>
@@ -64,7 +78,7 @@
 			<div class="article">
 				<img class="articleimg" src="../resources/metal_rembouré_gris.jpg" alt="" />
 				<div class="add_cart_button"><div class="add_cart_text">Ajouter au panier</div></div>
-			</div>
+			</div>-->
 		</div>
 	</body>
 </html>
