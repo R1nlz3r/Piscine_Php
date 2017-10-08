@@ -5,14 +5,19 @@ nav					{background-color: #009688;
 	width: 200px; min-width: 200px; max-width: 200px;  height: 100%;
 	text-align: center;
 	border-right: 4px solid #004D40;}
-nav a, nav input	{text-decoration: none; color: #004D40;
+.onglets			{text-decoration: none; color: #004D40;
 	font-family: "Arial", sans-serif; font-size: 20px;}
+.connexion			{position: relative; top: 60px;
+	background-color: #26A69A;}
 nav input			{border-style: none; background-color: transparent;}
 .icon 				{width: 100px; height: 100px;
 	border-radius: 10px; border: 4px solid #004D40; margin-top: 20px; margin-bottom: 20px;}
 .links				{padding-top: 15px; padding-bottom: 15px;
 	background-color: #26A69A; border-bottom: 2px solid #004D40;}
 .links:hover		{background-color: #4DB6AC;}
+.linksimp				{padding-top: 15px; padding-bottom: 15px;
+	background-color: #00897B; border-bottom: 3px solid #004D40;}
+.linksimp:hover		{background-color: #4DB6AC;}
 
 header				{background-color: #00BFA5;
 	position: fixed; left: 204px; top: 0; z-index: 1000;
