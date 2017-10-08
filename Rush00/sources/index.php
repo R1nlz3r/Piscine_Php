@@ -31,6 +31,10 @@
 				<div class="article">
 				<img class="articleimg" src="<?php echo $data[4];?>" alt="" />
 				<div class="add_cart_button"><div class="add_cart_text">Ajouter au panier</div></div>
+ 				<div class="price_trick"><div class="price">/// $</div></div>
+				<div class="description_block">
+					<div class="description"> /// </div>
+				</div>
 				</div>
 			<?php
 				}
