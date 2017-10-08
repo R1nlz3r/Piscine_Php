@@ -8,7 +8,6 @@ if ($_POST['submit'] == "OK" && $_POST['pseudo'] && $_POST['password'] != "")
 	} else {
 		$users = array();
 	}
-
 	foreach ($users as $key => $value) {
 		if ($value['pseudo'] == $_POST['pseudo'] && $value['password'] == hash("whirlpool", $_POST['password'])) {
 			$_SESSION['pseudo'] = $_POST['pseudo'];
