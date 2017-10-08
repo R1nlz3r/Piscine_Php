@@ -37,14 +37,27 @@ input[type=submit]	{margin-top: 32px; margin-bottom: 6px; width: 50%; padding: 1
 
 .catégorie			{margin: 25px; margin-left: 52px;
 	font-family: "Arial", sans-serif; color: #004D40; font-size: 35px;}
-
-.article			{padding: 25px; margin: 25px; min-width: 400px;
+.article			{padding: 25px; margin: 25px; min-width: 750px; min-height: 154px;
 	border-radius: 10px; border: 2px solid #004D40; background-color: #E0E0E0;
 	white-space: nowrap;}
-.articleimg			{width: 150px; height: 150px;
+.article:hover		{background-color: #EEEEEE;}
+.articleimg			{width: 150px; height: 150px; float: left;
 	border-radius: 10px; border: 2px solid #004D40;}
+
+.right				{float: right;}
+
 .add_cart_button	{width: 200px; height: 60px; float: right;
 	border-radius: 10px; border: 2px solid #004D40; background-color: #00BFA5;}
 .add_cart_button:hover	{background-color: #4DB6AC;}
 .add_cart_text		{font-family: "Arial", sans-serif; color: #004D40; font-size: 20px;
 	margin-left: 23px; margin-top: 18px; overflow: hidden; white-space: nowrap;}
+
+.description_block	{height: 120px; margin-left: 204px; margin-right: 254px; margin-top: 15px; margin-bottom: 15px;
+	border-radius: 10px; border: 2px solid #004D40; background-color: #F5F5F5;}
+.description		{margin: 15px; max-height: 90px;
+	font-family: "Arial", sans-serif; color: #004D40; font-size: 18px;
+	overflow-x: auto; overflow-y: auto;}
+
+.price_trick		{position: relative; width: 0; height: 0; top: 89px; left: calc(100% - 355px);}
+.price				{
+	font-family: "Arial", sans-serif; color: #004D40; font-size: 40px;}
