@@ -5,8 +5,9 @@ nav					{background-color: #009688;
 	width: 200px; min-width: 200px; max-width: 200px;  height: 100%;
 	text-align: center;
 	border-right: 4px solid #004D40;}
-a					{text-decoration: none; color: #004D40;
+nav a, nav input	{text-decoration: none; color: #004D40;
 	font-family: "Arial", sans-serif; font-size: 20px;}
+nav input			{border-style: none; background-color: transparent;}
 .icon 				{width: 100px; height: 100px;
 	border-radius: 10px; border: 4px solid #004D40; margin-top: 20px; margin-bottom: 20px;}
 .links				{padding-top: 15px; padding-bottom: 15px;
@@ -26,12 +27,14 @@ header				{background-color: #00BFA5;
 .body				{position: absolute; left:204px ; top: 152px; width: calc(100% - 204px); height: calc(100% - 152px);
 	background-color: #F5F5F5;}
 
-form				{margin-top: 25px; margin-left: 25px; margin-bottom: 25px;
+.body form				{margin-top: 25px; margin-left: 25px; margin-bottom: 25px;
 	font-family: "Arial", sans-serif; color: #004D40; font-size: 18px;}
-input[type=text], input[type=password]	{margin-top: 6px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
+.body input[type=text], input[type=password]
+	{margin-top: 6px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
 	border: 2px solid #004D40; background-color: #A7FFEB; color: black;
 	font-size: 15px;}
-input[type=submit]	{margin-top: 32px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
+.body input[type=submit]
+	{margin-top: 32px; margin-bottom: 6px; width: 50%; padding: 12px 20px;
 	border: 2px solid #004D40; background-color: #00897B; color: #004D40;
 	font-family: "Arial", sans-serif; font-size: 18px;}
 
