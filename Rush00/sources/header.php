@@ -23,6 +23,7 @@
 		<?php } else {?>
 			<div class="connexion">
 				<div class="linksimp" style="border-top: 3px solid #004D40;"><a href="deconnexion.php" class="onglets">Déconnexion</a></div>
+				<div class="linksimp"><a href="desinscription.php" class="onglets">Désinscription</a></div>
 			</div>
 		<?php }?>
 		</form>
