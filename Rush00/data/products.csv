@@ -1,6 +1,11 @@
 name;categorie;description;prix;img;
-product2;1;bo le lavabu;998;../resources/bois_rembouré.jpg;
-product3;1;bo le lavabo;997;../resources/imitation_rotin.jpg;
-product4;2;bo le lavabi;996;../resources/metal_noir.jpg;
-product5;1;bo le lavabe;995;../resources/metal_rembouré.jpg;
-product6;1;bo le lavaba;994;../resources/metal_rembouré_gris.jpg;
+Confort3000;1;Vos fesses méritent ce moelleux;998;../resources/bois_rembouré.jpg;
+Only black;1;Simple mais efficace;997;../resources/imitation_rotin.jpg;
+Black is the new black;La classique des salles des fêtes;996;../resources/metal_noir.jpg;
+Black confort+;1;Au bureau comme à la maison elle vous siéra;995;../resources/metal_rembouré.jpg;
+White not ?;1;Simple mais efficace;994;../resources/metal_rembouré_gris.jpg;
+OVER9000;1;La chaise royale à emporter partout;993;../resources/napoleon_pliante.jpg;
+shrodingwhite;1;Est-elle vraiment là ?;992;../resources/plastique_blanc.jpg;
+Archi la classe from china;1;Made with love in china;991;../resources/rond_gris.jpg;
+No idea;1;Il est beau le lavabo;990;../resources/tissu_noir.jpg;
+I see ya;1;Attention, déconseillé aux personnes ayant la peur du vide;989;../resources/transparent.jpg;
