@@ -5,7 +5,7 @@ class House
 	{
 		print ("House " . $this->getHouseName());
 		print (" of " . $this->getHouseSeat());
-		print (" : \"" . $this->getHouseMotto() . "\"\n");
+		print (" : \"" . $this->getHouseMotto() . "\"" . PHP_EOL);
 	}
 }
 ?>
