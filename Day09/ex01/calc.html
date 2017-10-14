@@ -1,0 +1,55 @@
+<!--
+                                                          :::      ::::::::
+     calc.html                                          :+:      :+:    :+:
+                                                      +:+ +:+         +:+
+     By: mapandel <mapandel@student.42.fr>          +#+  +:+       +#+
+                                                  +#+#+#+#+#+   +#+
+     Created: 2017/10/14 17:20:01 by mapandel          #+#    #+#
+     Updated: 2017/10/14 19:42:55 by mapandel         ###   ########.fr
+-->
+
+<!DOCTYPE html>
+<html>
+<body>
+	<div id="calc">
+		<input type="text" id="num1" />
+		<select id="operator">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+			<option value="%">%</option>
+		</select>
+		<input type="text" id="num2" />
+		<input type="submit" id="submit" value="Try me!" />
+	</div>
+</body>
+<script>
+	var submit = document.getElementById("submit");
+	var num1 = document.getElementById("num1");
+	var operator = document.getElementById("operator");
+	var num2 = document.getElementById("num2");
+	submit.addEventListener("click", function(){
+		var i = Math.floor(Number(num1.value));
+		var j = Math.floor(Number(num2.value));
+		if ((String(i) !== num1.value || String(j) !== num2.value
+			|| i < 0 || j < 0) && (alert("Error :("), 1) && (console.log("Error :("), 1))
+			return ;
+		if (operator.value === "+")
+			var result = i + j;
+		else if (operator.value === "-")
+			var result = i - j;
+		else if (operator.value === "*")
+			var result = i * j;
+		else if (operator.value === "/" && j != 0)
+			var result = i / j;
+		else if (operator.value === "%" && j != 0)
+			var result = i % j;
+		else if ((alert("It’s over 9000!"), 1) && (console.log("It’s over 9000!"), 1))
+			return ;
+		alert(result);
+		console.log(result);
+	});
+	setInterval(function(){ alert("Please, use me..."); }, 30000);
+</script>
+</html>
